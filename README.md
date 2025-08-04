@@ -1,45 +1,79 @@
 
-# ⚽ Análise de Gols em Copas do Mundo
+# 🏆 Análise de Gols em Copas do Mundo
 
-Este projeto é um dashboard interativo desenvolvido com **Python** e **Streamlit**, com visualizações sobre estatísticas de gols em Copas do Mundo.
+Este projeto é um **dashboard interativo** criado com **Python** e **Streamlit**, com foco na visualização de dados sobre gols em Copas do Mundo, utilizando um conjunto de dados customizado.
 
-## 🔍 Funcionalidades
-- Gols por edição da Copa
-- Gols por fase
-- Gols por minuto de jogo
-- Gols por país
-- Dashboard interativo e visual
+---
+
+## ⚙️ Funcionalidades
+
+- 📊 Gols por edição da Copa
+- 🏆 Gols por fase da competição
+- ⏱️ Gols por minuto de jogo
+- 🌍 Gols por país
+- 🎨 Dashboard visual, moderno e com menu lateral
+- 📁 Organização com múltiplas páginas via `pages/`
+- 🐍 Scripts de análise alternativos na pasta `pages1/`
+
+---
 
 ## 📁 Estrutura do Projeto
+
 ```
-📦 Copa do Mundo analise
-├── app.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-├── assets/
+📦 copa-do-mundo-dashboard
+├── 📁 assets
 │   └── capa_dashboard_copa.jpg
-├── pages/
-│   ├── 1_gols_por_edicao.py
-│   ├── 2_gols_por_fase.py
-│   ├── 3_por_minuto.py
-│   └── 4_gols_por_pais.py
-└── worldcup.csv
+├── 📁 pages
+│   ├── 1_Gols_por_edição.py
+│   ├── 2_Gols_por_fase.py
+│   ├── 3_Gols_por_minuto.py
+│   └── 4_Gols_por_país.py
+├── 📁 pages1
+│   ├── analise_gols_copa.py
+│   ├── artilheiros.py
+│   ├── gols_por_edicao.py
+│   ├── gols_por_fase.py
+│   ├── gols_por_minuto.py
+│   └── gols_por_pais.py
+├── .gitignore
+├── app.py
+├── worldcup.csv
+├── requirements.txt
+└── README.md
 ```
 
+---
+
 ## 🚀 Como executar
-1. Instale os requisitos:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/eduudiass/copa-do-mundo-dashboard.git
+   cd copa-do-mundo-dashboard
    ```
+
+2. Instale as dependências:
+   ```bash
    pip install -r requirements.txt
    ```
-2. Execute com Streamlit:
-   ```
+
+3. Execute o dashboard:
+   ```bash
    streamlit run app.py
    ```
 
-## 👨‍💻 Autor
-- Eduardo Dias  
-- [GitHub](https://github.com/eduudiass)
+---
 
-## 💾 Fonte de Dados
-O dataset foi obtido no [Kaggle](https://www.kaggle.com/), com ajustes e curadoria para análise personalizada.
+## 📌 Sobre os dados
+
+Os dados foram extraídos e tratados manualmente a partir do site [Kaggle](https://www.kaggle.com/), e organizados em um arquivo CSV com as principais informações sobre gols em Copas do Mundo.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por [Eduardo Dias](https://github.com/eduudiass)  
+Estudante de Ciência de Dados e Inteligência Artificial  
+Porto Alegre - RS, Brasil
+
+---
