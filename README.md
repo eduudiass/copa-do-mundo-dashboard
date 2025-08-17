@@ -1,33 +1,37 @@
 
-# 🏆 Análise de Gols em Copas do Mundo
+🏆 Análise de Gols em Copas do Mundo
 
-Este projeto é um **dashboard interativo** criado com **Python** e **Streamlit**, com foco na visualização de dados sobre gols em Copas do Mundo, utilizando um conjunto de dados customizado.
+Este projeto é um dashboard interativo criado com Python e Streamlit, focado na visualização de estatísticas sobre gols em Copas do Mundo.
+Os dados foram organizados em um conjunto customizado e explorados em múltiplas páginas com análises detalhadas.
 
----
+⚙️ Funcionalidades
 
-## ⚙️ Funcionalidades
+📊 Gols por edição da Copa
 
-- 📊 Gols por edição da Copa
-- 🏆 Gols por fase da competição
-- ⏱️ Gols por minuto de jogo
-- 🌍 Gols por país
-- 🎨 Dashboard visual, moderno e com menu lateral
-- 📁 Organização com múltiplas páginas via `pages/`
-- 🐍 Scripts de análise alternativos na pasta `pages1/`
+🏆 Gols por fase da competição
 
----
+⏱️ Gols por minuto de jogo
 
-## 📁 Estrutura do Projeto
+🌍 Gols por país
 
-```
+🎯 Artilheiros das Copas do Mundo (com correções de nomes e acentos)
+
+🎨 Dashboard visual, moderno e com menu lateral
+
+📁 Organização modular com múltiplas páginas via pages/
+
+🐍 Scripts de análise alternativos na pasta pages1/
+
+📁 Estrutura do Projeto
 📦 copa-do-mundo-dashboard
 ├── 📁 assets
-│   └── capa_dashboard_copa.jpg
+│   └── capa_dashboard_copa.png
 ├── 📁 pages
 │   ├── 1_Gols_por_edição.py
 │   ├── 2_Gols_por_fase.py
 │   ├── 3_Gols_por_minuto.py
-│   └── 4_Gols_por_país.py
+│   ├── 4_Gols_por_país.py
+│   └── 5_Artilheiros.py
 ├── 📁 pages1
 │   ├── analise_gols_copa.py
 │   ├── artilheiros.py
@@ -40,37 +44,33 @@ Este projeto é um **dashboard interativo** criado com **Python** e **Streamlit*
 ├── worldcup.csv
 ├── requirements.txt
 └── README.md
-```
 
----
+🚀 Como executar
 
-## 🚀 Como executar
+Clone o repositório:
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/eduudiass/copa-do-mundo-dashboard.git
-   cd copa-do-mundo-dashboard
-   ```
+git clone https://github.com/eduudiass/copa-do-mundo-dashboard.git
+cd copa-do-mundo-dashboard
 
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Execute o dashboard:
-   ```bash
-   streamlit run app.py
-   ```
+Instale as dependências:
 
----
+pip install -r requirements.txt
 
-## 📌 Sobre os dados
 
-Os dados foram extraídos e tratados manualmente a partir do site [Kaggle](https://www.kaggle.com/), e organizados em um arquivo CSV com as principais informações sobre gols em Copas do Mundo.
+Execute o dashboard:
 
----
+streamlit run app.py
 
-## 👨‍💻 Autor
+📌 Sobre os dados
+
+Os dados foram coletados e tratados manualmente, com base em diferentes fontes (incluindo o Kaggle), e organizados em um arquivo CSV (worldcup.csv) contendo as principais informações sobre gols em Copas do Mundo.
+
+👨‍💻 Autor
+
+Eduardo Dias
+📌 Estudante de Ciências de Dados e IA (PUCRS)
+🔗 LinkedIn | GitHub
 
 Desenvolvido por [Eduardo Dias](https://github.com/eduudiass)  
 Estudante de Ciência de Dados e Inteligência Artificial  
