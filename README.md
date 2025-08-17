@@ -1,12 +1,8 @@
 # 🏆 Análise de Gols em Copas do Mundo
 
-Este projeto é um **dashboard interativo** criado com **Python** e **Streamlit**, com foco na visualização de estatísticas sobre gols em Copas do Mundo.  
-O objetivo é explorar os dados de forma intuitiva através de múltiplas páginas e gráficos dinâmicos.
-
----
+Este projeto é um **dashboard interativo** criado com **Python** e **Streamlit**, com foco na visualização de estatísticas sobre gols em Copas do Mundo. O objetivo é explorar os dados de forma intuitiva através de múltiplas páginas e gráficos dinâmicos.
 
 ## ⚙️ Funcionalidades
-
 - 📊 Gols por edição da Copa  
 - 🏆 Gols por fase da competição  
 - ⏱️ Gols por minuto de jogo  
@@ -16,21 +12,16 @@ O objetivo é explorar os dados de forma intuitiva através de múltiplas págin
 - 📁 Organização modular com múltiplas páginas via `pages/`  
 - 🐍 Scripts de análise alternativos na pasta `pages1/`  
 
----
-
 ## 📁 Estrutura do Projeto
-
 📦 copa-do-mundo-dashboard  
 ├── 📁 assets  
 │   └── capa_dashboard_copa.png  
-│  
 ├── 📁 pages  
 │   ├── 1_Gols_por_edição.py  
 │   ├── 2_Gols_por_fase.py  
 │   ├── 3_Gols_por_minuto.py  
 │   ├── 4_Gols_por_país.py  
 │   └── 5_Artilheiros.py  
-│  
 ├── 📁 pages1  
 │   ├── analise_gols_copa.py  
 │   ├── artilheiros.py  
@@ -38,22 +29,18 @@ O objetivo é explorar os dados de forma intuitiva através de múltiplas págin
 │   ├── gols_por_fase.py  
 │   ├── gols_por_minuto.py  
 │   └── gols_por_pais.py  
-│  
 ├── app.py  
 ├── worldcup.csv  
 ├── requirements.txt  
 ├── README.md  
 └── .gitignore  
 
----
-
 ## 🚀 Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/eduudiass/copa-do-mundo-dashboard.git
-   cd copa-do-mundo-dashboard
-Crie um ambiente virtual (opcional, mas recomendado):
+Clone o repositório e entre na pasta:
+```bash
+git clone https://github.com/eduudiass/copa-do-mundo-dashboard.git
+cd copa-do-mundo-dashboard
+Crie um ambiente virtual (opcional, mas recomendado) e ative:
 
 bash
 Copiar
@@ -61,13 +48,13 @@ Editar
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
-Instale as dependências:
+Instale as dependências do projeto:
 
 bash
 Copiar
 Editar
 pip install -r requirements.txt
-Execute o dashboard:
+Por fim, execute o dashboard:
 
 bash
 Copiar
@@ -86,3 +73,9 @@ Eduardo Dias
 yaml
 Copiar
 Editar
+
+---
+
+🔥 Agora sim: **tudo no mesmo markdown, corrido, sem separar em blocos extras**.  
+
+Quer que eu já monte a **versão em inglês** nesse mesmo estilo pra deixar teu repositório bilíngue?
