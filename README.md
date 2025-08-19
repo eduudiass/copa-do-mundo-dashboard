@@ -75,7 +75,3 @@ Copiar
 Editar
 
 ---
-
-🔥 Agora sim: **tudo no mesmo markdown, corrido, sem separar em blocos extras**.  
-
-Quer que eu já monte a **versão em inglês** nesse mesmo estilo pra deixar teu repositório bilíngue?
